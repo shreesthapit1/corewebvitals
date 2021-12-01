@@ -1,0 +1,17 @@
+{
+    "name": "shreesthapit/corewebvitals",
+    "autoload": {
+        "psr-4": {
+            "Shreesthapit\\Corewebvitals\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shree Sthapit",
+            "email": "shreesthapit1@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    }
+}
