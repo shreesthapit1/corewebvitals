@@ -12,13 +12,19 @@ composer require shreesthapit1/corewebvitals
 ### Configure
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 ```
-Shreesthapit1\Corewebvitals\CoreWebVitalServiceProvider::class,
+Shreesthapit\Corewebvitals\CoreWebVitalServiceProvider::class,
 ```
 
 #### Copy the package config to your local config with the publish command:
 
 ```bash
-php artisan vendor:publish --provider="Shreesthapit1\Corewebvitals\CoreWebVitalServiceProvider"
+php artisan vendor:publish --provider="Shreesthapit\Corewebvitals\CoreWebVitalServiceProvider"
+```
+
+#### Migrate the tables required to store the core web vitals records.
+
+```bash
+php artisan migrate
 ```
 
 ### Collecting Data
