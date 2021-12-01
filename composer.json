@@ -5,6 +5,8 @@
             "Shreesthapit\\Corewebvitals\\": "src/"
         }
     },
+    "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Shree Sthapit",
