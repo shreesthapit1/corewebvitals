@@ -7,7 +7,7 @@ This is Laravel 8.x package wrapper library for monitoring Web Vitals Records to
 ### Installing
 To install the package, in terminal:
 ```
-composer require shreesthapit1/corewebvitals
+composer require shreesthapit/corewebvitals
 ```
 ### Configure
 If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
